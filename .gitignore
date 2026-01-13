@@ -1,0 +1,16 @@
+*.tfstate
+*.tfstate.backup
+
+# Ignore the .terraform directory (plugins and modules)
+.terraform/
+.terraform.lock.hcl
+
+# Variable files containing secrets (best practice to ignore these)
+*.tfvars
+*.auto.tfvars
+
+# Ignore key pair files
+*.pem
+*.key
+*.pub
+id_rsa
